@@ -1,0 +1,16 @@
+@import "./helpers/variables";
+@import "./helpers/mixins";
+@import "./helpers/media-queries";
+
+@import "./vendors/normalize";
+
+@import "./base/base";
+@import "./base/fonts";
+
+@import "./components/button";
+
+@import "./layout/header";
+@import "./layout/footer";
+
+@import "./pages/main/heading";
+@import "./pages/main/gallery";

@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Montserrat";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-image: url(../images/parcel.png);
+}
+
+input[type="text"],
+input[type="phone"],
+input[type="email"],
+textarea {
+  appearance: none;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: none;
+  }
+}
