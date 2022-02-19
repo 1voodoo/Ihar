@@ -10,9 +10,17 @@ html {
 
 body {
   font-family: "Montserrat";
+  font-size: 18px;
+  font-weight: 500;
+  color: #000000;
+  min-width: 320px;
+  max-width: 1920;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url(../images/parcel.png);
+}
+.wrapper {
+  max-width: 1590px;
+  padding: 0 15px;
 }
 
 input[type="text"],
