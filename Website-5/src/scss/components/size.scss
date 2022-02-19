@@ -1,0 +1,41 @@
+.c-size {
+    max-width: 169px;
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+
+&__center{
+    @include screen-max($desktop) {
+display: flex;
+align-items: center;
+margin-left: 64px;
+
+
+    }
+    
+}
+   
+
+&__item {
+    
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #737373;
+    padding-right: 10px ;
+    padding-left: 10px;
+    border: 1px solid #E4E4E4;
+}
+
+&__item:last-child{
+    margin-right: 0;
+}
+
+}

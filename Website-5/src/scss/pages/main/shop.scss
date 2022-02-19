@@ -1,0 +1,189 @@
+.p-m-shop {
+    @include screen-max($desktop) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    
+     }
+    background: #313958;
+    padding: 56px 0px 62px 0px;
+    &__headline {
+
+        @include screen-max($desktop){
+            max-width: 218px;
+           
+        }
+       
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 57px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-bottom: 68px;
+        
+    }
+    &__gred {
+       display: flex;
+       justify-content: center;
+       
+        
+    }
+}
+.p-m-shop-item {
+    max-width: 348px;
+    position: relative;
+    margin-right: 20px;
+
+    @include screen-max($desktop){
+        display: none;
+        
+    }
+    
+    &--hide{
+        display: none;
+        @include screen-max($desktop){
+            display: inline-block;
+            
+        }
+    }
+
+    
+    max-width: 348px;
+    position: relative;
+
+    &__image {
+        
+        width: 349px;
+        height: 249px;
+    }
+
+    &__name {
+        content: "";
+        position: absolute;
+        right: 200px;
+        bottom: 170px;
+        font-family: Montserrat;
+        background: rgba(0, 0, 0, 0.2);
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        padding: 18px 38px;
+        border: 2px solid #FFFFFF;
+        border-radius: 10px;
+
+        }
+        
+   
+}
+.p-m-shop-item:nth-child(4) {
+    margin-right: 0px;
+    
+
+}
+.p-m-shop-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 58px;
+
+    &__ellipse {
+        width: 15px;
+        height: 15px;
+        background: rgba(255, 255, 255, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        border-radius: 66px;
+        margin-left: 5px;
+        
+       
+
+    }
+    &__ellipse {
+        &--color{
+        width: 15px;
+        height: 15px;
+        background: #48AAFF;
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        box-sizing: border-box;
+        border-radius: 66px;
+        margin-left: 32px;
+    }
+   
+    }
+&__item{
+    width: 41px;
+    height: 41px;
+    background: rgba(222, 222, 222, 0.2);
+    border: 0.695207px solid rgba(255, 255, 255, 0.4);
+    display: inline-block;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 34.7604px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    &--color{
+    width: 41px;
+    height: 41px;
+    background: #FFFFFF;
+    border: 0.695207px solid rgba(255, 255, 255, 0.4);
+    display: inline-block;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 34.7604px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 28px;
+    @include screen-max($desktop){
+        display: none;
+        
+    }
+    
+    }
+}
+
+
+
+
+    &__ellipse:nth-child(n+5){
+        
+        display: none;
+        @include screen-max($desktop){
+            display: block;
+            overflow: hidden;
+            
+        }
+        
+    }
+
+
+    
+}
+
+@include screen-max($desktop){
+    .p-m-shop-control{
+        &__item {
+            display: none;
+        }
+            
+    }
+}
+
+.p-m-shop-list:last-child{
+    display: none;
+    @include screen-max($desktop){
+        display: block;
+        align-items: center;
+        justify-content: center;
+        max-width: 348;
+    }
+
+}

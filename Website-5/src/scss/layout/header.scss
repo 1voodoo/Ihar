@@ -1,0 +1,139 @@
+.l-header  {
+    padding-top: 36px;
+    
+    background-color: transparent;
+   
+    @include screen-max($desktop) {
+        padding: 18px 22px 0px 24px;
+ 
+     }
+   
+    &__wrapper {
+        width: 100%;
+        max-width: 1440px;
+        padding-bottom: 38px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        text-align: center;
+        align-items: center;
+    }
+&__logo-img {
+
+    width: 186px;
+    height: 36px;
+
+    
+}
+
+&-controls {
+    position: relative;
+    display: flex;
+    align-items: center;
+    
+
+    &__item {
+        
+        display: flex;
+        align-items: center;
+
+        &--color {
+           
+            color: #252B42;
+        }
+      
+       
+        &--min{
+            display: none;
+            margin-left: 26px;
+            width: 26px;
+            height: 16px;
+        }
+    }
+    
+    
+    
+    &__item-text {
+
+        @include screen-max($desktop) {
+            display: none;
+     
+         }
+        
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #FFFFFF;
+        padding-left: 28px;
+
+       
+        &--color {
+            
+            
+            color: #252B42;
+        }
+        
+        
+       
+      
+        
+
+    }
+    &__item-icon {
+        display: inline-block;
+        height: 56px;
+        width: 56px;
+        line-height: 50px;
+        border-radius: 100%;
+        font-size: 20px;
+        color: #fff;
+        background: rgba(232, 232, 232, 0.4);
+        border: 1px solid rgba(255, 255, 255, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        
+    
+          
+
+    }
+   
+    &__item-notification {
+        position: absolute;
+        content: "";
+        top: -2px;
+        right: 2px;
+        min-width: 19px;
+        min-height: 19px;
+        border-radius: 100px;
+        background-color: #2091F9;
+        font-size: 600;
+        font-size: 10px;
+        line-height: 19px;
+        color:white;
+        
+        @include screen-max($desktop) {
+            top:2px;
+            right: 48px;
+     
+         }
+
+    }
+   }
+  
+.l-header-controls__item:nth-child(2) {
+    padding-left: 38px;
+    padding-right: 54px;
+}
+  
+}
+
+
+
+
+
+

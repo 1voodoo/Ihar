@@ -1,0 +1,128 @@
+.c-pages{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 62px;
+
+    @include screen-max($desktop) {   
+        display: flex;
+    align-items: center;
+    
+    margin-top: 62px;
+       
+     }
+    &__item:nth-child(n+2):nth-child(-n+9){
+
+        @include screen-max($desktop) {   
+            display: none;
+           
+         }
+     
+
+    }
+&__item:first-child{
+    @include screen-max($desktop) {   
+        margin-right: 18px;
+ 
+     }
+}
+
+&__item:nth-child(2){
+    color: #FFFFFF;
+    background: #2091F9;
+}
+         &__item{
+        
+        &--img{
+            width: 8px;
+            height: 14px;
+            
+            
+        }
+       
+        font-style: normal;
+        font-weight: 500;
+        padding: 12px 14px;
+        font-size: 16px;
+        line-height: 16px;
+        letter-spacing: 0.2px;
+        color: #8EC2F2;
+        background: #FFFFFF;
+        border: 1px solid #8EC2F2;
+        box-sizing: border-box;
+        border-radius: 5px;
+        margin-right: 16px;
+
+        &--circles{
+            @include screen-max($desktop) {   
+                display: none;
+         
+             }
+            padding: 0px;
+            width: 7px;
+            height: 7px;
+            background: #8EC2F2;
+            margin-right: 7px;
+    }
+        
+    }
+   
+    &__item:nth-child(6){
+        margin-right: 14px;
+    }
+    &__item:last-child{
+        margin-left: 7px;
+        margin-right: 0px;
+        @include screen-max($desktop) {   
+            margin-left: 18px;
+     
+         }
+    }
+
+    &__items{
+        
+        &--color{
+            display: block;
+            
+            background-color: none;
+            border:none;  
+        }
+        display: none;
+        @include screen-max($desktop) {   
+            display: block;
+            background-color: none;
+            border:none;
+            display: flex;
+            margin: 0px;
+            
+          
+
+         }
+
+    }
+
+
+
+
+}
+.number{
+    color: #737373;
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    
+
+    &::before{
+        content:"|" ;
+        color: #737373;
+        margin: 0px 5px;
+        
+    }
+}
+
+
+
+
+
+
+

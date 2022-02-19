@@ -1,0 +1,60 @@
+.c-home{
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #E8E8E8;
+    padding: 26px 0px 24px 0px;
+    @include screen-max($desktop) {
+        padding: 26px 0px 24px 52px;
+        margin-top: 25px;
+     }
+    
+
+    &__wrapper {
+        width: 100%;
+        max-width: 1440px;
+        margin: 0 auto;
+        display: flex;
+       
+        
+    }
+    &__date {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+    &__vector {
+        width:  7px;
+        height: 12px;
+        margin: 0px 12px;
+        margin-top: 8px;
+
+    
+}
+    &__text { 
+        @include screen-max($desktop) {
+            display: none;
+     
+         }
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #737373;
+
+        &--none{
+            display: none;
+            @include screen-max($desktop) {
+                display:inline-block;
+                display: flex;
+                align-items: center;
+             }
+        }
+    }
+
+}

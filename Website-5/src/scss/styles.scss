@@ -1,0 +1,32 @@
+@import "./helpers/variables";
+@import "./helpers/mixins";
+@import "./helpers/media-queries";
+
+@import "./vendors/normalize";
+
+@import "./base/base";
+@import "./base/fonts";
+
+@import "./components/button";
+@import "./components/color";
+@import "./components/size";
+@import "./components/description";
+@import "./components/checkbox.scss";
+@import "./components/checkbox-conteuner.scss";
+@import "./components/pages.scss";
+@import "./components/home.scss";
+
+@import "./layout/header";
+@import "./layout/footer";
+@import "./layout/navigation.scss";
+
+@import "./pages/main/heading";
+@import "./pages/main/gallery";
+@import "./pages/main/featured";
+@import "./pages/main/Latest";
+@import "./pages/main/blog";
+@import "./pages/main/shop";
+@import "./pages/main/product.scss";
+@import "./pages/main/catalog.scss";
+@import "./pages/main/products.scss";
+@import "./pages/main/test.scss";

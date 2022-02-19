@@ -1,0 +1,63 @@
+.p-m-heading {
+@include BackgrondImage ("");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+  
+}
+.p-m-heading-content {
+    padding: 184px 0px 200px 0px;
+    color: #FFFFFF;
+    text-align: center;
+
+    &--side{
+        background-image: url(../images/yellow.jpg);
+        @include BackgrondImageLove ("");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        padding: 76px 0px 76px 0px;
+    }
+   
+&__overhead {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1px;
+    
+}
+&__tittle {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
+    margin: 8px 0px 8px 0px;
+    
+    @include screen-max($desktop) {
+        margin: 6px 0px 6px 0px;
+    }
+
+}
+&__end {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    margin-bottom: 30px;
+    }
+  
+    }
+  
+
+
+
+
+
+    
+  

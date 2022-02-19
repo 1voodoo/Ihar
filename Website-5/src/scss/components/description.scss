@@ -1,0 +1,99 @@
+.c-description {
+    margin-top: 14px;
+    &--size{
+        margin-top: 0px;
+        @include screen-max($desktop) {
+        margin-right: 64px;
+            
+                }
+    }
+    &__title{
+        &--color{
+            font-style: normal;
+            font-weight: bold;
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.1px;
+            color: rgba(149, 147, 147, 0.876);
+        }
+    }
+   
+    &__text{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        color: black;
+        font-size: 16px;
+        line-height: 24px;
+        
+
+    }
+
+    &__title:nth-child(1) {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+
+      
+
+}
+    &__title:last-child {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 38px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+        
+
+}
+    &__title:nth-child(2) {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: rgba(149, 147, 147, 0.876);
+    }
+
+}
+
+.c-description{
+    &--small{
+        margin-top: 0px;
+        max-width: 170px;
+
+    
+    }
+    &--small:first-child{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: #252B42;
+    }
+    &--small:nth-child(2){
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        color: rgba(149, 147, 147, 0.876);
+}
+    &--small:last-child {
+        margin: 10px 0px;
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.2px;
+        color: #252B42;
+
+    }
+
+}

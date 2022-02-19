@@ -1,0 +1,7 @@
+@mixin BackgrondImage($name) { 
+    background-image: url("../images/backfon.png#{$name}"); 
+  }
+  @mixin BackgrondImageLove($name) { 
+    background-image: url("../images/yellow.jpg#{$name}"); 
+  }
+ 
