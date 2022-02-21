@@ -14,13 +14,19 @@ body {
   font-weight: 500;
   color: #000000;
   min-width: 320px;
-  max-width: 1920;
+  max-width: 1920px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin: 0 auto;
+ 
 }
 .wrapper {
   max-width: 1590px;
-  padding: 0 15px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  min-height: 70px;
 }
 
 input[type="text"],
