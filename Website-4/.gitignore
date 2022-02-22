@@ -2,5 +2,5 @@ node_modules
 dist
 .cache
 .parcel-cache/
-.vscode
-Website-5
+../.vscode/
+../Website-5/
