@@ -1,12 +1,14 @@
-.page__catalog-cards {
- 
+.page {
+  &__products-slider{
+    margin-top: 121px;
+    padding-bottom: 161px;
+  }
+  
 }
 
 .catalog-cards {
   max-width: 1590px;
   margin: 0 auto;
-  padding-top: 102px;
-  padding-bottom: 70px;
 
   &__container {
     display: grid;
@@ -154,7 +156,7 @@
       display: flex;
       align-items: center;
       justify-content: center;
-      margin: 60px;
+      margin-top: 60px;
   }
 
 }
@@ -267,7 +269,6 @@
 
   }
   &__body {
-    letter-spacing: 10px;
     
   }
   &__active {
