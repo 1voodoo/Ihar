@@ -5,6 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./scss/styles.scss">
+  <link rel="stylesheet" href="./nouislider.css">
   <title>Document</title>
 </head>
 <body>
@@ -182,7 +183,601 @@
     </div>
   </header>
   <main class="page page-inner">
-
+    <div class="catalog">
+      <div class="catalog__container">
+        <h2 class="catalog__title">Разделочные ножи</h2>
+        <nav class="breadcrambs">
+          <ul class="breadcrambs__list">
+            <li class="breadcrambs__item">
+              <a href="" class="breadcrambs__link">Главная</a>
+            </li>
+            <li class="breadcrambs__item">
+              <span href="" class="breadcrambs__current">Разделочные ножи </span>
+            </li>
+          </ul>
+        </nav>
+        <div class="catalog__controll">
+          <select name="form" class="form">
+            <option value="1" selected>По популярности</option>
+            <option value="2" >Пункт 2</option>
+            <option value="3" >Пункт 3</option>
+            <option value="4" >Пункт 4</option>
+          </select>
+        </div>
+      </div>
+      <div class="catalog__main">
+        <div class="catalog__controls">
+          <div class="catalog__filter filter-catalog">
+            <div class="filter-catalog__title">Фильтр товаров</div>
+            <div class="filter-catalog__items">
+              <div class="filter-catalog__price price-filter">
+                <div data-range class="price-filter__body">
+                  <div class="price-filter__inputs">
+                    <input data-range-from="0" type="text" value="500" name="" class="price-filter__input">
+                    <input data-range-to="5000" type="text" value="1000" name="" class="price-filter__input">
+                  </div>
+                  <div data-range-item class="price-filter__range"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      <div class="catalog__products">
+        <div class="product__card">
+          <div class="products-slider__slider">
+            <div class="products-slider__swiper">
+              <div class="products-slider__slide">
+                <article class="products-card">
+                  <a href="" class="products-card__image-ibg products-card__image-ibg_contain">
+                    <img src="../src/images/01s 1.png" alt="foto">
+                  </a>
+                  <div class="products-card__body">
+                    <h4 class="products-card__title">
+                      <a href="" class="products-card__link-title">Нож Лиса</a>
+                    </h4>
+                    <div class="products-card__info info-products-card">
+                      <div class="info-products-card__size">95x18</div>
+                      <div class="info-products-card__materials">Орех, Алюминий</div>
+                    </div>
+                    <div class="products-card__rating rating">
+                      <div class="rating__value">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                      </div>
+                      <div class="rating__info">12 отзывов</div>
+                    </div>
+                    <div class="products-card__footer">
+                      <div class="products-card__price">2 719 р</div>
+                      <a href="" class="products-card__compare">
+                        <img class="products-card__compare-icon" src="../src/images/scales.png" alt="icon">
+                      </a>
+                      <a href="" class="products-card__favorite">
+                        <img class="products-card__favorite-icon" src="../src/images/favorites.png" alt="icon">
+                      </a>
+                    </div>
+                    <button class="products-card__cart"><span>В корзину</span>
+                      <img src="../src/images/cart.png" alt="icon">
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__card">
+          <div class="products-slider__slider">
+            <div class="products-slider__swiper">
+              <div class="products-slider__slide">
+                <article class="products-card">
+                  <a href="" class="products-card__image-ibg products-card__image-ibg_contain">
+                    <img src="../src/images/01s 1.png" alt="foto">
+                  </a>
+                  <div class="products-card__body">
+                    <h4 class="products-card__title">
+                      <a href="" class="products-card__link-title">Нож Лиса</a>
+                    </h4>
+                    <div class="products-card__info info-products-card">
+                      <div class="info-products-card__size">95x18</div>
+                      <div class="info-products-card__materials">Орех, Алюминий</div>
+                    </div>
+                    <div class="products-card__rating rating">
+                      <div class="rating__value">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                      </div>
+                      <div class="rating__info">12 отзывов</div>
+                    </div>
+                    <div class="products-card__footer">
+                      <div class="products-card__price">2 719 р</div>
+                      <a href="" class="products-card__compare">
+                        <img class="products-card__compare-icon" src="../src/images/scales.png" alt="icon">
+                      </a>
+                      <a href="" class="products-card__favorite">
+                        <img class="products-card__favorite-icon" src="../src/images/favorites.png" alt="icon">
+                      </a>
+                    </div>
+                    <button class="products-card__cart"><span>В корзину</span>
+                      <img src="../src/images/cart.png" alt="icon">
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__card">
+          <div class="products-slider__slider">
+            <div class="products-slider__swiper">
+              <div class="products-slider__slide">
+                <article class="products-card">
+                  <a href="" class="products-card__image-ibg products-card__image-ibg_contain">
+                    <img src="../src/images/01s 1.png" alt="foto">
+                  </a>
+                  <div class="products-card__body">
+                    <h4 class="products-card__title">
+                      <a href="" class="products-card__link-title">Нож Лиса</a>
+                    </h4>
+                    <div class="products-card__info info-products-card">
+                      <div class="info-products-card__size">95x18</div>
+                      <div class="info-products-card__materials">Орех, Алюминий</div>
+                    </div>
+                    <div class="products-card__rating rating">
+                      <div class="rating__value">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                      </div>
+                      <div class="rating__info">12 отзывов</div>
+                    </div>
+                    <div class="products-card__footer">
+                      <div class="products-card__price">2 719 р</div>
+                      <a href="" class="products-card__compare">
+                        <img class="products-card__compare-icon" src="../src/images/scales.png" alt="icon">
+                      </a>
+                      <a href="" class="products-card__favorite">
+                        <img class="products-card__favorite-icon" src="../src/images/favorites.png" alt="icon">
+                      </a>
+                    </div>
+                    <button class="products-card__cart"><span>В корзину</span>
+                      <img src="../src/images/cart.png" alt="icon">
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__card">
+          <div class="products-slider__slider">
+            <div class="products-slider__swiper">
+              <div class="products-slider__slide">
+                <article class="products-card">
+                  <a href="" class="products-card__image-ibg products-card__image-ibg_contain">
+                    <img src="../src/images/01s 1.png" alt="foto">
+                  </a>
+                  <div class="products-card__body">
+                    <h4 class="products-card__title">
+                      <a href="" class="products-card__link-title">Нож Лиса</a>
+                    </h4>
+                    <div class="products-card__info info-products-card">
+                      <div class="info-products-card__size">95x18</div>
+                      <div class="info-products-card__materials">Орех, Алюминий</div>
+                    </div>
+                    <div class="products-card__rating rating">
+                      <div class="rating__value">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                      </div>
+                      <div class="rating__info">12 отзывов</div>
+                    </div>
+                    <div class="products-card__footer">
+                      <div class="products-card__price">2 719 р</div>
+                      <a href="" class="products-card__compare">
+                        <img class="products-card__compare-icon" src="../src/images/scales.png" alt="icon">
+                      </a>
+                      <a href="" class="products-card__favorite">
+                        <img class="products-card__favorite-icon" src="../src/images/favorites.png" alt="icon">
+                      </a>
+                    </div>
+                    <button class="products-card__cart"><span>В корзину</span>
+                      <img src="../src/images/cart.png" alt="icon">
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__card">
+          <div class="products-slider__slider">
+            <div class="products-slider__swiper">
+              <div class="products-slider__slide">
+                <article class="products-card">
+                  <a href="" class="products-card__image-ibg products-card__image-ibg_contain">
+                    <img src="../src/images/01s 1.png" alt="foto">
+                  </a>
+                  <div class="products-card__body">
+                    <h4 class="products-card__title">
+                      <a href="" class="products-card__link-title">Нож Лиса</a>
+                    </h4>
+                    <div class="products-card__info info-products-card">
+                      <div class="info-products-card__size">95x18</div>
+                      <div class="info-products-card__materials">Орех, Алюминий</div>
+                    </div>
+                    <div class="products-card__rating rating">
+                      <div class="rating__value">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                      </div>
+                      <div class="rating__info">12 отзывов</div>
+                    </div>
+                    <div class="products-card__footer">
+                      <div class="products-card__price">2 719 р</div>
+                      <a href="" class="products-card__compare">
+                        <img class="products-card__compare-icon" src="../src/images/scales.png" alt="icon">
+                      </a>
+                      <a href="" class="products-card__favorite">
+                        <img class="products-card__favorite-icon" src="../src/images/favorites.png" alt="icon">
+                      </a>
+                    </div>
+                    <button class="products-card__cart"><span>В корзину</span>
+                      <img src="../src/images/cart.png" alt="icon">
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__card">
+          <div class="products-slider__slider">
+            <div class="products-slider__swiper">
+              <div class="products-slider__slide">
+                <article class="products-card">
+                  <a href="" class="products-card__image-ibg products-card__image-ibg_contain">
+                    <img src="../src/images/01s 1.png" alt="foto">
+                  </a>
+                  <div class="products-card__body">
+                    <h4 class="products-card__title">
+                      <a href="" class="products-card__link-title">Нож Лиса</a>
+                    </h4>
+                    <div class="products-card__info info-products-card">
+                      <div class="info-products-card__size">95x18</div>
+                      <div class="info-products-card__materials">Орех, Алюминий</div>
+                    </div>
+                    <div class="products-card__rating rating">
+                      <div class="rating__value">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                      </div>
+                      <div class="rating__info">12 отзывов</div>
+                    </div>
+                    <div class="products-card__footer">
+                      <div class="products-card__price">2 719 р</div>
+                      <a href="" class="products-card__compare">
+                        <img class="products-card__compare-icon" src="../src/images/scales.png" alt="icon">
+                      </a>
+                      <a href="" class="products-card__favorite">
+                        <img class="products-card__favorite-icon" src="../src/images/favorites.png" alt="icon">
+                      </a>
+                    </div>
+                    <button class="products-card__cart"><span>В корзину</span>
+                      <img src="../src/images/cart.png" alt="icon">
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__card">
+          <div class="products-slider__slider">
+            <div class="products-slider__swiper">
+              <div class="products-slider__slide">
+                <article class="products-card">
+                  <a href="" class="products-card__image-ibg products-card__image-ibg_contain">
+                    <img src="../src/images/01s 1.png" alt="foto">
+                  </a>
+                  <div class="products-card__body">
+                    <h4 class="products-card__title">
+                      <a href="" class="products-card__link-title">Нож Лиса</a>
+                    </h4>
+                    <div class="products-card__info info-products-card">
+                      <div class="info-products-card__size">95x18</div>
+                      <div class="info-products-card__materials">Орех, Алюминий</div>
+                    </div>
+                    <div class="products-card__rating rating">
+                      <div class="rating__value">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                      </div>
+                      <div class="rating__info">12 отзывов</div>
+                    </div>
+                    <div class="products-card__footer">
+                      <div class="products-card__price">2 719 р</div>
+                      <a href="" class="products-card__compare">
+                        <img class="products-card__compare-icon" src="../src/images/scales.png" alt="icon">
+                      </a>
+                      <a href="" class="products-card__favorite">
+                        <img class="products-card__favorite-icon" src="../src/images/favorites.png" alt="icon">
+                      </a>
+                    </div>
+                    <button class="products-card__cart"><span>В корзину</span>
+                      <img src="../src/images/cart.png" alt="icon">
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__card">
+          <div class="products-slider__slider">
+            <div class="products-slider__swiper">
+              <div class="products-slider__slide">
+                <article class="products-card">
+                  <a href="" class="products-card__image-ibg products-card__image-ibg_contain">
+                    <img src="../src/images/01s 1.png" alt="foto">
+                  </a>
+                  <div class="products-card__body">
+                    <h4 class="products-card__title">
+                      <a href="" class="products-card__link-title">Нож Лиса</a>
+                    </h4>
+                    <div class="products-card__info info-products-card">
+                      <div class="info-products-card__size">95x18</div>
+                      <div class="info-products-card__materials">Орех, Алюминий</div>
+                    </div>
+                    <div class="products-card__rating rating">
+                      <div class="rating__value">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                      </div>
+                      <div class="rating__info">12 отзывов</div>
+                    </div>
+                    <div class="products-card__footer">
+                      <div class="products-card__price">2 719 р</div>
+                      <a href="" class="products-card__compare">
+                        <img class="products-card__compare-icon" src="../src/images/scales.png" alt="icon">
+                      </a>
+                      <a href="" class="products-card__favorite">
+                        <img class="products-card__favorite-icon" src="../src/images/favorites.png" alt="icon">
+                      </a>
+                    </div>
+                    <button class="products-card__cart"><span>В корзину</span>
+                      <img src="../src/images/cart.png" alt="icon">
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__card">
+          <div class="products-slider__slider">
+            <div class="products-slider__swiper">
+              <div class="products-slider__slide">
+                <article class="products-card">
+                  <a href="" class="products-card__image-ibg products-card__image-ibg_contain">
+                    <img src="../src/images/01s 1.png" alt="foto">
+                  </a>
+                  <div class="products-card__body">
+                    <h4 class="products-card__title">
+                      <a href="" class="products-card__link-title">Нож Лиса</a>
+                    </h4>
+                    <div class="products-card__info info-products-card">
+                      <div class="info-products-card__size">95x18</div>
+                      <div class="info-products-card__materials">Орех, Алюминий</div>
+                    </div>
+                    <div class="products-card__rating rating">
+                      <div class="rating__value">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                      </div>
+                      <div class="rating__info">12 отзывов</div>
+                    </div>
+                    <div class="products-card__footer">
+                      <div class="products-card__price">2 719 р</div>
+                      <a href="" class="products-card__compare">
+                        <img class="products-card__compare-icon" src="../src/images/scales.png" alt="icon">
+                      </a>
+                      <a href="" class="products-card__favorite">
+                        <img class="products-card__favorite-icon" src="../src/images/favorites.png" alt="icon">
+                      </a>
+                    </div>
+                    <button class="products-card__cart"><span>В корзину</span>
+                      <img src="../src/images/cart.png" alt="icon">
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__card">
+          <div class="products-slider__slider">
+            <div class="products-slider__swiper">
+              <div class="products-slider__slide">
+                <article class="products-card">
+                  <a href="" class="products-card__image-ibg products-card__image-ibg_contain">
+                    <img src="../src/images/01s 1.png" alt="foto">
+                  </a>
+                  <div class="products-card__body">
+                    <h4 class="products-card__title">
+                      <a href="" class="products-card__link-title">Нож Лиса</a>
+                    </h4>
+                    <div class="products-card__info info-products-card">
+                      <div class="info-products-card__size">95x18</div>
+                      <div class="info-products-card__materials">Орех, Алюминий</div>
+                    </div>
+                    <div class="products-card__rating rating">
+                      <div class="rating__value">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                      </div>
+                      <div class="rating__info">12 отзывов</div>
+                    </div>
+                    <div class="products-card__footer">
+                      <div class="products-card__price">2 719 р</div>
+                      <a href="" class="products-card__compare">
+                        <img class="products-card__compare-icon" src="../src/images/scales.png" alt="icon">
+                      </a>
+                      <a href="" class="products-card__favorite">
+                        <img class="products-card__favorite-icon" src="../src/images/favorites.png" alt="icon">
+                      </a>
+                    </div>
+                    <button class="products-card__cart"><span>В корзину</span>
+                      <img src="../src/images/cart.png" alt="icon">
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__card">
+          <div class="products-slider__slider">
+            <div class="products-slider__swiper">
+              <div class="products-slider__slide">
+                <article class="products-card">
+                  <a href="" class="products-card__image-ibg products-card__image-ibg_contain">
+                    <img src="../src/images/01s 1.png" alt="foto">
+                  </a>
+                  <div class="products-card__body">
+                    <h4 class="products-card__title">
+                      <a href="" class="products-card__link-title">Нож Лиса</a>
+                    </h4>
+                    <div class="products-card__info info-products-card">
+                      <div class="info-products-card__size">95x18</div>
+                      <div class="info-products-card__materials">Орех, Алюминий</div>
+                    </div>
+                    <div class="products-card__rating rating">
+                      <div class="rating__value">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                      </div>
+                      <div class="rating__info">12 отзывов</div>
+                    </div>
+                    <div class="products-card__footer">
+                      <div class="products-card__price">2 719 р</div>
+                      <a href="" class="products-card__compare">
+                        <img class="products-card__compare-icon" src="../src/images/scales.png" alt="icon">
+                      </a>
+                      <a href="" class="products-card__favorite">
+                        <img class="products-card__favorite-icon" src="../src/images/favorites.png" alt="icon">
+                      </a>
+                    </div>
+                    <button class="products-card__cart"><span>В корзину</span>
+                      <img src="../src/images/cart.png" alt="icon">
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="product__card">
+          <div class="products-slider__slider">
+            <div class="products-slider__swiper">
+              <div class="products-slider__slide">
+                <article class="products-card">
+                  <a href="" class="products-card__image-ibg products-card__image-ibg_contain">
+                    <img src="../src/images/01s 1.png" alt="foto">
+                  </a>
+                  <div class="products-card__body">
+                    <h4 class="products-card__title">
+                      <a href="" class="products-card__link-title">Нож Лиса</a>
+                    </h4>
+                    <div class="products-card__info info-products-card">
+                      <div class="info-products-card__size">95x18</div>
+                      <div class="info-products-card__materials">Орех, Алюминий</div>
+                    </div>
+                    <div class="products-card__rating rating">
+                      <div class="rating__value">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                        <img src="../src/images/Star 1.png" alt="icon">
+                      </div>
+                      <div class="rating__info">12 отзывов</div>
+                    </div>
+                    <div class="products-card__footer">
+                      <div class="products-card__price">2 719 р</div>
+                      <a href="" class="products-card__compare">
+                        <img class="products-card__compare-icon" src="../src/images/scales.png" alt="icon">
+                      </a>
+                      <a href="" class="products-card__favorite">
+                        <img class="products-card__favorite-icon" src="../src/images/favorites.png" alt="icon">
+                      </a>
+                    </div>
+                    <button class="products-card__cart"><span>В корзину</span>
+                      <img src="../src/images/cart.png" alt="icon">
+                    </button>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="catalog__footer">
+          <a href="" class="catalog__more button button_border">Показать больше</a>
+          <div class="catalog__paging paging">
+            <button class="paging__arrow-left"><</button>
+            <ul class="paging__list">
+              <li class="paging__item">
+                <a href="" class="paging__link">1</a>
+              </li>
+              <li class="paging__item">
+                <a href="" class="paging__link">2</a>
+              </li>
+              <li class="paging__item">
+                <a href="" class="paging__link">3</a>
+              </li>
+              <li class="paging__item">
+                <a href="" class="paging__link">...</a>
+              </li>
+              <li class="paging__item">
+                <a href="" class="paging__link">15</a>
+              </li>
+            </ul>
+            <button class="paging__arrow-right">></button>
+          </div>
+      </div>
+    </div>
   </main>
   <footer class="footer">
     <div class="footer__text text-footer">
@@ -340,6 +935,7 @@
       </div>
     </div>    
   </footer>
-  <script src="./app.js" module></script>
+  <script src="./nouislider.js" module></script>
+  <script src="./app.js " module></script>
 </body>
 </html>
