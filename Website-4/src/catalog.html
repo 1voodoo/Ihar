@@ -5,7 +5,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./scss/styles.scss">
-  <link rel="stylesheet" href="./nouislider.css">
+  <link rel="stylesheet" href="./nouislider.scss">
   <title>Document</title>
 </head>
 <body>
@@ -212,11 +212,69 @@
             <div class="filter-catalog__items">
               <div class="filter-catalog__price price-filter">
                 <div data-range class="price-filter__body">
+                  <div class="price-filter__title">Цена</div>
                   <div class="price-filter__inputs">
-                    <input data-range-from="0" type="text" value="500" name="" class="price-filter__input">
+                    <input data-range-from="0" type="text" value="0" name="" class="price-filter__input">
                     <input data-range-to="5000" type="text" value="1000" name="" class="price-filter__input">
                   </div>
                   <div data-range-item class="price-filter__range"></div>
+                </div>
+              </div>
+              <div class="filter-catalog__item item-filter-catalog">
+                <div class="item-filter-catalog__title">Производство</div>
+                <div class="item-filter-catalog__body">
+                  <div class="item-filter-catalog__checbox checbox">
+                    <input id="c_1" class="checbox__input" type="checkbox" name="" >
+                    <label for="c_1" class="checbox__label"><span class="checbox__text">АиР<small>(250)</small></span></label>
+                  </div>
+                  <div class="item-filter-catalog__checbox checbox ">
+                    <input id="c_2" class="checbox__input" type="checkbox" name="" >
+                    <label for="c_2" class="checbox__label"><span class="checbox__text">Булат Сергея Баранова<small>(25)</small></span></label>
+                  </div>
+                  <div class="item-filter-catalog__checbox checbox">
+                    <input id="c_3" class="checbox__input" type="checkbox" name="" >
+                    <label for="c_3" class="checbox__label"><span class="checbox__text">Булат Умерова<small>(265)</small></span></label>
+                  </div>
+                  <div class="item-filter-catalog__checbox checbox">
+                    <input id="c_4" class="checbox__input" type="checkbox" name="" >
+                    <label for="c_4" class="checbox__label"><span class="checbox__text">ЗЗОСС<small>(18)</small></span></label>
+                  </div>
+                  <div class="item-filter-catalog__checbox checbox">
+                    <input id="c_5" class="checbox__input" type="checkbox" name="" >
+                    <label for="c_5" class="checbox__label"><span class="checbox__text">ЗИК<small>(170)</small></span></label>
+                  </div>
+                  <div class="item-filter-catalog__checbox checbox">
+                    <input id="c_6" class="checbox__input" type="checkbox" name="" >
+                    <label for="c_6" class="checbox__label"><span class="checbox__text">ЗЛАТКО<small>(170)</small></span></label>
+                  </div>
+                  <div class="item-filter-catalog__checbox checbox">
+                    <input id="c_7" class="checbox__input" type="checkbox" name="" >
+                    <label for="c_7" class="checbox__label"><span class="checbox__text">ЗлатПрофит<small>(170)</small></span></label>
+                  </div>
+                  <div class="item-filter-catalog__checbox checbox">
+                    <input id="c_8" class="checbox__input" type="checkbox" name="" >
+                    <label for="c_8" class="checbox__label"><span class="checbox__text">ЗОК<small>(170)</small></span></label>
+                  </div>
+                  <div class="item-filter-catalog__checbox checbox">
+                    <input id="c_9" class="checbox__input" type="checkbox" name="" >
+                    <label for="c_9" class="checbox__label"><span class="checbox__text">НБК<small>(170)</small></span></label>
+                  </div>
+                  <div class="item-filter-catalog__checbox checbox">
+                    <input id="c_10" class="checbox__input" type="checkbox" name="" >
+                    <label for="c_10" class="checbox__label"><span class="checbox__text">НИКОН<small>(170)</small></span></label>
+                  </div>
+                  <div class="item-filter-catalog__checbox checbox">
+                    <input id="c_11" class="checbox__input" type="checkbox" name="" >
+                    <label for="c_11" class="checbox__label"><span class="checbox__text">Оружейник<small>(170)</small></span></label>
+                  </div>
+                  <div class="item-filter-catalog__checbox checbox">
+                    <input id="c_12" class="checbox__input" type="checkbox" name="" >
+                    <label for="c_12" class="checbox__label"><span class="checbox__text">РОСоружие<small>(170)</small></span></label>
+                  </div>
+                  <div class="item-filter-catalog__checbox checbox">
+                    <input id="c_13" class="checbox__input" type="checkbox" name="" >
+                    <label for="c_13" class="checbox__label"><span class="checbox__text">СТИЛЬ-М<small>(170)</small></span></label>
+                  </div>
                 </div>
               </div>
             </div>
@@ -910,7 +968,10 @@
                 </button>
               </li>
               <li class="item-footer__item">
-                <a href="" class="item-footer__link">Я прочитал Условия соглашения и согласен с условиями</a>
+                <div class="checbox">
+                  <input id="c_101" class="checbox__input" type="checkbox" name="" >
+                  <label for="c_101" class="checbox__label"><span class="checbox__text_any">Я прочитал Условия соглашения и согласен с условиями</span></label>
+                </div>
               </li>
 
             </ul>
