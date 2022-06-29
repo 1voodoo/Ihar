@@ -1,0 +1,9 @@
+node_modules
+dist
+.cache
+.parcel-cache/
+../.vscode/
+../Website-5/
+../.vscode/
+src/images/Postman-win64-9.13.0-Setup.exe
+../Website-5/
