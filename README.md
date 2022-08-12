@@ -1,4 +1,4 @@
-<div>
+<div styele"background-image: url(http://www.example.com/bck.png)">
 <h1>My work<h1/> <br/>
 Website-1 <a href='https://majestic-marigold-5fd49d.netlify.app/' target="_blank">one</a>
 <img style='width: 200px; height: 200px;' src='https://img2.akspic.ru/previews/5/8/2/8/6/168285/168285-astronavt-risovanie-kosmos-kosmicheskoe_prostranstvo-multfilm-500x.jpg'/> <br/>
